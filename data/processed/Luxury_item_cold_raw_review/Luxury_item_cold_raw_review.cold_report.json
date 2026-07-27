@@ -1,0 +1,41 @@
+{
+  "dataset": "Luxury_item_cold_raw_review",
+  "source_processed_dataset": "Luxury_raw_review",
+  "source_processed_dir": "/data/uqsqiao/Amazon_processed_data/raw_review/Luxury_raw_review",
+  "cold_start_type": "item",
+  "split_setting": {
+    "cutoff_ratio": 0.9,
+    "test_ratio": 0.1,
+    "min_history": 1,
+    "max_seq_len": 20
+  },
+  "splits": {
+    "train": {
+      "samples": 46303,
+      "users": 19748,
+      "target_items": 6385,
+      "all_items": 7097,
+      "avg_history_length": 3.702546
+    },
+    "valid": {
+      "samples": 805,
+      "users": 803,
+      "target_items": 684,
+      "all_items": 2562,
+      "avg_history_length": 3.359006
+    },
+    "test": {
+      "samples": 805,
+      "users": 802,
+      "target_items": 662,
+      "all_items": 2507,
+      "avg_history_length": 3.269565
+    }
+  },
+  "integrity_checks": {
+    "passed": true,
+    "train_valid_test_non_empty": true,
+    "valid_cold_items_absent_from_train": true,
+    "test_cold_items_absent_from_train": true
+  }
+}

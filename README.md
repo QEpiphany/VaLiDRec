@@ -193,8 +193,9 @@ export HF_CACHE_DIR=/path/to/huggingface/cache
 
 ### Paper benchmark
 
-The manuscript evaluates four Amazon-2018 domains under standard 5-core
-evaluation and one zero-shot item cold-start split.
+The manuscript evaluates four domains from the
+[Amazon Review Data (2018)](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/)
+under standard 5-core evaluation and one zero-shot item cold-start split.
 
 | Dataset | Users | Items | Interactions | Sparsity |
 |---|---:|---:|---:|---:|

@@ -11,7 +11,7 @@ Experiments on four real-world datasets show that VaLiDRec consistently outperfo
 ## Framework
 
 <p align="center">
-  <img src="Figures/Framework.pdf" width="95%" alt="Framework of VaLiDRec">
+  <img src="Figures/framework.png" width="95%" alt="Framework of VaLiDRec">
 </p>
 
 <p align="center">
